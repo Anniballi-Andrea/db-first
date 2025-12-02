@@ -13,11 +13,11 @@ colums:
 -km INT FLOAT(8,2) NOT NULL
 -prezzo  SMALL FLOAT(8,2) NOT NULL
 -data immatricolazione DATE NOT NULL
--targa TINYINT NOT NULL
+-targa VARCHAR(7) NOT NULL
 -porte TINYINT NOT NULL
 -cambio VARCHAR(25) NOT NULL
 -posti TINYINT NOT NULL
--colore carrozzeria VARCHAR(15) NOT NULL
--colore interni VARCHAR(15) NOT NULL
+-colore_carrozzeria VARCHAR(15) NOT NULL
+-colore_interni VARCHAR(15) NOT NULL
 -incidentata TINYINT DEFOULT(0) NULL
 -?optional
